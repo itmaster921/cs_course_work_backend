@@ -34,7 +34,7 @@ def sign_in(request):
             "position": '',
             "access": 0,
             "sex": 1,
-            "org_id": ''
+            # "org_id": ''
         }
         return JsonResponse(admin)
     user = find_employee(login, password)
